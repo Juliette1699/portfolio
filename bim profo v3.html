@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Scanning, 3D Modeling, and BIM Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        header, footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 2em 0;
+        }
+        .content {
+            margin-bottom: 2em;
+        }
+        .project img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 1em 0;
+        }
+        nav {
+            margin-bottom: 2em;
+        }
+        nav a {
+            margin: 0 1em;
+            text-decoration: none;
+            color: #333;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+    </style>
+    <script>
+        function switchLanguage(lang) {
+            document.querySelectorAll('.content').forEach(el => el.style.display = 'none');
+            document.getElementById('content-' + lang).style.display = 'block';
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>3D Scanning, 3D Modeling, and BIM Portfolio</h1>
+        <nav>
+            <a href="#" onclick="switchLanguage('en')">English</a>
+            <a href="#" onclick="switchLanguage('zh')">中文</a>
+            <a href="#" onclick="switchLanguage('ja')">日本語</a>
+            <a href="#" onclick="switchLanguage('ko')">한국어</a>
+            <a href="#" onclick="switchLanguage('fr')">Français</a>
+            <a href="#" onclick="switchLanguage('de')">Deutsch</a>
+        </nav>
+    </header>
+    <div class="container">
+        <!-- English Content -->
+        <div class="content" id="content-en">
+            <h2>About Me</h2>
+            <p>I have an academic background in architecture and extensive experience in implementing and promoting BIM technology. Utilizing various BIM software, I have optimized processes from design to construction and maintenance, achieving quality improvements. With strong self-learning abilities, I quickly master new technologies and software, providing effective training to team members. I have also developed the ability to accurately identify the needs of clients and project teams, delivering optimal solutions.</p>
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Project 1: Matterport</h3>
+                <img src="C:/Users/朱曄/Downloads/BIM portfolio/Matterport/新潟県加茂市STP/230821__-Dollhouse-View.jpg" alt="Project 1 Image">
+                <p>Details about this project...</p>
+            </div>
+            <div class="project">
+                <h3>Project 2: Leica BLK360</h3>
+                <img src="C:\Users\朱曄\Downloads\BIM portfolio\BLK360\埼玉県日本ヒューム熊谷工場/01.png" alt="Project 2 Image">
+                <p>Details about this project...</p>
+            </div>
+            <!-- Add more projects as needed -->
+            <h2>Contact</h2>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/ye-zhu-341b10210/" target="_blank">Your Profile</a></p>
+        </div>
+        <!-- Chinese Content -->
+        <div class="content" id="content-zh" style="display:none;">
+            <h2>关于我</h2>
+            <p>我拥有建筑学的学术背景，并在BIM技术的引入和推进方面有丰富的经验。通过各种BIM软件，从设计到施工再到维护管理，我实现了流程的高效化和质量提升。凭借强大的自学能力，我迅速掌握了新技术和软件，并为团队成员提供有效的培训。我还培养了准确把握客户和项目团队需求，并提供最佳解决方案的能力。</p>
+            <h2>项目</h2>
+            <div class="project">
+                <h3>项目1：MATTERPORT</h3>
+                <img src="C:/Users/朱曄/Downloads/BIM portfolio/Matterport/新潟県加茂市STP/230821__-Dollhouse-View.jpg" alt="项目1图片">
+                <p>关于这个项目的详细信息...</p>
+            </div>
+            <div class="project">
+                <h3>项目2：Leica BLK360</h3>
+                <img src="C:\Users\朱曄\Downloads\BIM portfolio\BLK360\埼玉県日本ヒューム熊谷工場/01.png" alt="项目2图片">
+                <p>关于这个项目的详细信息...</p>
+            </div>
+            <!-- Add more projects as needed -->
+            <h2>联系</h2>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/your-profile" target="_blank">您的资料</a></p>
+        </div>
+        <!-- Japanese Content -->
+        <div class="content" id="content-ja" style="display:none;">
+            <h2>私について</h2>
+            <p>私は建築学の学術的背景を持ち、BIM技術の導入と推進に豊富な経験があります。これまで、さまざまなBIMソフトウェアを駆使して、設計から施工、維持管理までのプロセスを効率化し、品質向上を実現しました。強い自己学習能力を活かし、新しい技術やソフトウェアを迅速に習得し、チームメンバーにも効果的なトレーニングを提供しています。クライアントやプロジェクトチームのニーズを正確に把握し、最適なソリューションを提供する能力も培ってきました。</p>
+            <h2>プロジェクト</h2>
+            <div class="project">
+                <h3>プロジェクト1：MATTERPORT</h3>
+                <img src="C:/Users/朱曄/Downloads/BIM portfolio/Matterport/新潟県加茂市STP/230821__-Dollhouse-View.jpg" alt="プロジェクト1画像">
+                <p>このプロジェクトに関する詳細...</p>
+            </div>
+            <div class="project">
+                <h3>プロジェクト2：Leica BLK360</h3>
+                <img src="C:\Users\朱曄\Downloads\BIM portfolio\BLK360\埼玉県日本ヒューム熊谷工場/01.png" alt="プロジェクト2画像">
+                <p>このプロジェクトに関する詳細...</p>
+            </div>
+            <!-- Add more projects as needed -->
+            <h2>連絡先</h2>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/your-profile" target="_blank">あなたのプロフィール</a></p>
+        </div>
+        <!-- Korean Content -->
+        <div class="content" id="content-ko" style="display:none;">
+            <h2>소개</h2>
+            <p>저는 건축학 학문적 배경을 가지고 있으며, BIM 기술 도입과 추진에 풍부한 경험이 있습니다. 다양한 BIM 소프트웨어를 활용하여 설계부터 시공, 유지 관리까지의 프로세스를 효율화하고 품질 향상을 이루어냈습니다. 강한 자기 학습 능력을 통해 새로운 기술과 소프트웨어를 빠르게 습득하고 팀원들에게 효과적인 교육을 제공하고 있습니다. 또한, 고객과 프로젝트 팀의 요구를 정확히 파악하고 최적의 솔루션을 제공하는 능력도 갖추고 있습니다。</p>
+            <h2>프로젝트</h2>
+            <div class="project">
+                <h3>프로젝트1：MATTERPORT</h3>
+                <img src="C:/Users/朱曄/Downloads/BIM portfolio/Matterport/新潟県加茂市STP/230821__-Dollhouse-View.jpg" alt="프로젝트1 이미지">
+                <p>이 프로젝트에 대한 자세한 내용...</p>
+            </div>
+            <div class="project">
+                <h3>프로젝트2：Leica BLK360</h3>
+                <img src="C:\Users\朱曄\Downloads\BIM portfolio\BLK360\埼玉県日本ヒューム熊谷工場/01.png" alt="프로젝트2 이미지">
+                <p>이 프로젝트에 대한 자세한 내용...</p>
+            </div>
+            <!-- Add more projects as needed -->
+            <h2>연락처</h2>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/your-profile" target="_blank">프로필</a></p>
+        </div>
+        <!-- French Content -->
+        <div class="content" id="content-fr" style="display:none;">
+            <h2>À propos de moi</h2>
+            <p>Je possède une formation académique en architecture et une vaste expérience dans la mise en œuvre et la promotion de la technologie BIM. En utilisant divers logiciels BIM, j'ai optimisé les processus de la conception à la construction et à la maintenance, améliorant ainsi la qualité. Grâce à de fortes capacités d'auto-apprentissage, j'ai rapidement maîtrisé de nouvelles technologies et logiciels, fournissant des formations efficaces aux membres de l'équipe. J'ai également développé la capacité à identifier avec précision les besoins des clients et des équipes de projet, offrant des solutions optimales.</p>
+            <h2>Projets</h2>
+            <div class="project">
+                <h3>Projet 1 : MATTERPORT</h3>
+                <img src="C:/Users/朱曄/Downloads/BIM portfolio/Matterport/新潟県加茂市STP/230821__-Dollhouse-View.jpg" alt="Image du Projet 1">
+                <p>Détails sur ce projet...</p>
+            </div>
+            <div class="project">
+                <h3>Projet 2 : Leica BLK360</h3>
+                <img src="C:\Users\朱曄\Downloads\BIM portfolio\BLK360\埼玉県日本ヒューム熊谷工場/01.png" alt="Image du Projet 2">
+                <p>Détails sur ce projet...</p>
+            </div>
+            <!-- Add more projects as needed -->
+            <h2>Contact</h2>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/your-profile" target="_blank">Votre profil</a></p>
+        </div>
+        <!-- German Content -->
+        <div class="content" id="content-de" style="display:none;">
+            <h2>Über mich</h2>
+            <p>Ich habe einen akademischen Hintergrund in Architektur und umfangreiche Erfahrung in der Implementierung und Förderung von BIM-Technologie. Durch die Nutzung verschiedener BIM-Software habe ich Prozesse von der Planung über den Bau bis hin zur Wartung optimiert und die Qualität verbessert. Dank meiner starken Selbstlernfähigkeiten beherrsche ich neue Technologien und Software schnell und biete effektive Schulungen für Teammitglieder an. Zudem habe ich die Fähigkeit entwickelt, die Bedürfnisse von Kunden und Projektteams genau zu erkennen und optimale Lösungen zu bieten.</p>
+            <h2>Projekte</h2>
+            <div class="project">
+                <h3>Projekt 1: MATTERPORT</h3>
+                <img src="C:/Users/朱曄/Downloads/BIM portfolio/Matterport/新潟県加茂市STP/230821__-Dollhouse-View.jpg" alt="Projekt 1 Bild">
+                <p>Details zu diesem Projekt...</p>
+            </div>
+            <div class="project">
+                <h3>Projekt 2: Leica BLK360</h3>
+                <img src="C:\Users\朱曄\Downloads\BIM portfolio\BLK360\埼玉県日本ヒューム熊谷工場/01.png" alt="Projekt 2 Bild">
+                <p>Details zu diesem Projekt...</p>
+            </div>
+            <!-- Add more projects as needed -->
+            <h2>Kontakt</h2>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/your-profile" target="_blank">Ihr Profil</a></p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
