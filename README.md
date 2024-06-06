@@ -4,19 +4,22 @@ Welcome to my personal portfolio website showcasing my projects in 3D scanning, 
 
 ## About Me
 
-私は建築学の学術的背景を持ち、BIM技術の導入と推進に豊富な経験があります。これまで、さまざまなBIMソフトウェアを駆使して、設計から施工、維持管理までのプロセスを効率化し、品質向上を実現しました。強い自己学習能力を活かし、新しい技術やソフトウェアを迅速に習得し、チームメンバーにも効果的なトレーニングを提供しています。クライアントやプロジェクトチームのニーズを正確に把握し、最適なソリューションを提供する能力も培ってきました。
+I have an academic background in architecture and extensive experience in implementing and promoting BIM technology. Utilizing various BIM software, I have optimized processes from design to construction and maintenance, achieving quality improvements. With strong self-learning abilities, I quickly master new technologies and software, providing effective training to team members. I have also developed the ability to accurately identify the needs of clients and project teams, delivering optimal solutions.
 
 ## Projects
 
 This portfolio includes a selection of projects utilizing various technologies and software:
 
-- **MATTERPORT**
+- **Matterport**
 - **Leica BLK360**
 - **Cyclone Register Plus**
-- **PIX4D**
+- **Pix4D**
 - **TRENDPOINT**
-- **LUPOSCAN**
-- **BIM Software**
+- **LupoScan**
+- **Autodesk Revit**
+- **Navisworks**
+- **Archicad**
+- **CAD**
 
 Each project is showcased with images and detailed descriptions to provide an insight into the work involved and the outcomes achieved.
 
